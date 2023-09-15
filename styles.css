@@ -1,2 +1,26 @@
 
 /* Your CSS Code here. */
+div{
+	position:relative;
+}
+.moviePic{
+	height: 500px;
+	width: 350px;
+	opacity: 0.99;
+}
+.movieDetail{
+	text-align: center;
+	width:330px;
+	height: 135px;
+	position:absolute;
+	top: 332px;
+	color: white;
+	font-size: 18px;
+	background-color: darkred;
+	padding: 10px;
+	opacity: 0;
+	transition:  all ease-in 0.5s;
+}
+.movieDetail:hover{
+	opacity:1;
+}
